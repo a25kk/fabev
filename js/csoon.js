@@ -42,13 +42,13 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 // Countdown
-$('#clock').countdown('2016/09/03 10:00:00').on('update.countdown', function(event) {
+$('#clock').countdown('2016/09/03 14:00:00').on('update.countdown', function(event) {
     var $this = $(this).html(event.strftime(''
-    + '<div><span>%-w</span>week%!w</div>'
-    + '<div><span>%-d</span>day%!d</div>'
-    + '<div><span>%H</span>hr</div>'
-    + '<div><span>%M</span>min</div>'
-    + '<div><span>%S</span>sec</div>'));
+    + '<div><span>%-w</span>Wochen</div>'
+    + '<div><span>%-d</span>Tage</div>'
+    + '<div><span>%H</span>Stunden</div>'
+    + '<div><span>%M</span>Minuten</div>'
+    + '<div><span>%S</span>Sekunden</div>'));
 });
 
 // HTML5 Placeholder
