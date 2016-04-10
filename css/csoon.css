@@ -68,7 +68,7 @@ p {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #000;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
